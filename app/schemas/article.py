@@ -1,17 +1,17 @@
 from pydantic import BaseModel
 
 
-class GoodDBBase(BaseModel):
-    id_good: int
+class ArticleDBBase(BaseModel):
+    id_article: int
     name: str
 
     class Config:
         orm_mode = True
 
 
-class GoodCreate(BaseModel):
+class ArticleCreate(BaseModel):
     name: str
 
 
-class GoodUpdate(BaseModel):
+class ArticleUpdate(BaseModel):
     name: str

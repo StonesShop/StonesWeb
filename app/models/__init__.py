@@ -1,1 +1,1 @@
-from .good import Good  # noqa: F401
+from .article import Article  # noqa: F401

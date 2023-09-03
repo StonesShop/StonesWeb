@@ -1,1 +1,1 @@
-from .good import GoodDBBase, GoodCreate, GoodUpdate  # noqa: F401
+from .article import ArticleDBBase, ArticleCreate, ArticleUpdate  # noqa: F401

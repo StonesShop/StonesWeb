@@ -8,3 +8,4 @@ class Article(Base):
 
     id_article = Column(Integer, primary_key=True, index=True)
     name = Column(String(250), nullable=False)
+    price = Column(Integer, nullable=False)
